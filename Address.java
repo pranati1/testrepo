@@ -3,7 +3,7 @@ package com.opencodez.domain;
 public class Address {
 
 	private String state;
-	private String country;
+	private String country1;
 	private String zipcode;
 
 	/**
@@ -24,7 +24,7 @@ public class Address {
 	/**
 	 * @return the country
 	 */
-	public String getCountry() {
+	public String getCountry1() {
 		return country;
 	}
 
@@ -32,7 +32,7 @@ public class Address {
 	 * @param country
 	 *            the country to set
 	 */
-	public void setCountry(String country) {
+	public void setCountry1(String country) {
 		this.country = country;
 	}
 
